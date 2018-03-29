@@ -1,0 +1,25 @@
+@media screen and (max-width:1200px ) {
+	.page3,.page5{
+		width: 96%;
+	}
+	.page3 .left{
+		width: 33%;
+	}
+	.page3 .pic{
+		width: 33%;
+	}
+	.page3 .left .icon{
+		width: 17%;
+	}
+	.page3 .left .text{
+		width: 71%;
+	}
+	.page5 .pic-list li{
+		width: 30%;
+		height: auto;
+		margin: 0 3% 3% 0;
+
+
+	}
+	
+}

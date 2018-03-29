@@ -1,0 +1,93 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+img,input{border: none;}
+a{text-decoration: none;color:#000;}
+.clearfix:after{
+	content: '';
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+}
+header,nav,section,footer{display: block;}
+html,body{height: 100%;}
+.page1{background: url(../images/oshin-slide-1.jpg) no-repeat center /cover;height: 100%;text-align: center;}
+.page1 .logo{float: left;padding: 2% 0 0 2%;}
+.page1 .icon{float: right;padding: 2% 2% 0 0;}
+.page1 nav{display: inline-block;}
+.page1 nav li{float: left;padding: 0 21px;line-height: 99px;height: 99px;}
+.page1 nav li:hover a{color: peru;}
+.page1 .anime{width: 364px;height: 307px;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+
+.page1 .anime .a1{line-height: 80px;font-size: 20px;animation: a1 2s ease forwards;animation-fill-mode: ;position: absolute;top: 0;width: 100%;}
+
+.page1 .anime .a2{line-height: 102px;font-size: 50px;border: 7px solid black;position: absolute;top: 80px;left: 0;width: 350px;display: inline-block;animation: a2 2s ease forwards;}
+
+.page1 .anime .a3{line-height: 110px;font-size: 20px;position: absolute;top: 182px;left: 0;width: 100%;animation: a3 2s ease forwards;font-family: 'lsy';}
+@keyframes a1{
+	0%{	left: -300px;}
+	100%{left: 0;}
+}
+@keyframes a2{
+	0%{	top: -300px;}
+	100%{left: 0;}
+}
+@keyframes a3{
+	0%{	top: -300px;}
+	100%{left: 0;}
+}
+@font-face {
+	font-family: 'lsy';
+	src: url('../fonts/BrushScriptStd.eot');
+	src: local('☺'), url('../fonts/BrushScriptStd.woff') format('woff'), url('../fonts/BrushScriptStd.ttf') format('truetype'), url('../fonts/BrushScriptStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.page2{text-align: center;}
+.page2 h2{height: 73px;line-height: 73px;padding-top: 75px;}
+.page2 span{height: 64px;line-height: 64px;}
+.page2 .diamond{width: 10px;height: 10px;background: #e0a240;border: 1px solid #f6e3c5;margin: 0 auto;position: relative;transform: rotate(45deg);}
+.page2 .diamond:before{content:"";width: 20px;height: 1px;background: #e8e8e8;position: absolute;top: 0;left: 0;transform: rotate(-45deg) translateX(-45px);}
+.page2 .diamond:after{content:"";width: 20px;height: 1px;background: #e8e8e8;position: absolute;top: 0;transform: rotate(-45deg) translateX(20px);}
+.page2 p{line-height: 33px;padding-bottom: 100px;}
+.page2 .pic{font-size: 0;}
+.page2 ul li{float: left;width: 25%;height: 245px;}
+.page2 ul li:nth-child(odd){background: #f2f5f8;}
+.page2 ul li:nth-child(even){background: #edf0f2;}
+.page2 ul li i{font-size: 60px;padding-top: 60px;transform: .3s;}
+.page2 ul li span{line-height: 53px;display: block;transform: .3s;}
+.page2 ul li:hover i,.page2 ul li:hover span{transform: translateY(-30px);}
+.page3{width: 1200px;margin: 0 auto;}
+.page3 .left{float: left;width: 398px;}
+.page3 .left ul{padding-top: 110px;}
+.page3 .left li{padding-bottom:40px ;}
+.page3 .left .icon{float:left;color: #e7b04e;font-size: 30px;width: 71px;text-align: center;padding-top: 8px;}
+.page3 .left .text{float: left;width: 285px;padding-left: 10px;}
+.page3 .left h3{line-height: 53px;height: 53px;}
+.page3 .left p{line-height: 26px;}
+.page3 .pic{float: left;width: 404px;padding-top: 90px;margin-bottom: 101px;}
+.page3 .pic img{width: 100%;}
+.page4{height:400px;background: url(../images/wanderlust01.jpg) no-repeat center top /cover fixed;}
+.page5{margin: 0 auto;width: 1200px;text-align:center;}
+.page5 .nav{display: inline-block;padding-top: 85px;}
+.page5 .nav li{float: left;height: 46px;}
+.page5 .nav a{height: 44px;line-height: 44px;display: block;text-align: center;padding: 0 22px;transition: .5s;}
+.page5 .nav li:hover a{border: 1px solid #E0A240;color: #E0A240;}
+.page5 .pic-list li{width:373px;height:221px;float: left;margin: 0 40px 40px 0;}
+.page5 .pic-list li img{width: 100%;height: 100%;display: block;}
+.page5 .pic-list .a1{margin-right: 0;}
+.page5 .btn{width: 158px;height: 44px;line-height: 44px;text-align: center;color: #222;display: block;margin: 0 auto;border: 2px solid #000;margin-bottom: 90px;}
+.page6{background: #f2f3f8;}
+.page6 .inner{width: 100%;text-align: center;}
+.page6 .inner .fa{font-size:95px;color: #dfdfdf;margin-top: 98px;}
+.page6 .inner p{height: 39px;line-height: 39px;}
+.page6 .inner a{color: #e0a240;}
+.page6 .inner span{height: 35px;line-height: 35px;}
+.page6 .inner h4{height: 59px;line-height: 59px;}
+.page7{margin-bottom: 90px;}
+.page7 .page2{padding-bottom: 84px;}
+.page7 ul{width: 1280px;margin: 0 auto;}
+.page7 li{float: left;}
+.page7 li img{width: 620px;}
+.page7 .a1{margin-right: 20px;}
+.page8{height: 339px;background: url(../images/pingpu.jpg);}
